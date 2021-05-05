@@ -43,4 +43,4 @@ print(r.scoopski, scoopski)
 cat(c(scoopski, py$scoopski))
 ```
 
-![](https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/Bittrsweet/phpUxqdvf.jpeg) 
+![](https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/Bittrsweet/phpUxqdvf.jpeg)  

@@ -6,6 +6,8 @@
   </url><url>
     <loc>/</loc>
   </url><url>
+    <loc>/post/</loc>
+  </url><url>
     <loc>/project/project1/</loc>
   </url><url>
     <loc>/project/project2/</loc>
@@ -13,6 +15,8 @@
     <loc>/project/</loc>
   </url><url>
     <loc>/projects/</loc>
+  </url><url>
+    <loc>/post/1/01/01/python_blog2/</loc>
   </url><url>
     <loc>/resume/</loc>
   </url><url>

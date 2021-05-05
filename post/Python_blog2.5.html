@@ -1,0 +1,38 @@
+
+
+
+<p>+++
+-title =“Python_blog2”
+description = “Come explore my relationship with Python and R.”
+tags = []
+categories = []
++++</p>
+<p>—Title = “Python_blog2.5”</p>
+<p><strong>Throughout this SDS 348 class, the majority of coding that I have learned has been through using R. I really enjoyed R because it was not difficult to learn, the software for calculating and presenting statistical data was very clear/straightforward, and it gave me an appreciation for how coding works and why it is so valuable in the world we live in today. Unfortunately, like everything in life all good things must come to an end… or do they? Enter the beauty of Python.</strong></p>
+<p><strong>Python, unlike R, has an easier/more sleek syntax. It provides a greater opportunity for creating neural nets - something I have really been intrigued by especially when it comes to developing chess engines (such as Stockist or Komodo) that can learn to beat grandmasters in a matter of minutes. Furthermore, like the kind of chess I play, Python is fast and like chess in general, the learning curve can be rather steep for beginners. R on the other hand is slower, more methodical when uploading/importing/calculating data. The code below demonstrates some of the interesting things I have learned to code with Python.</strong></p>
+<pre class="python"><code>list1 =[20, 13, 14, 85, 67, 32]
+list2 =[30, 90, 24, 45, 82, 8]
+list1[3:6]</code></pre>
+<pre><code>## [85, 67, 32]</code></pre>
+<pre class="python"><code>list2[4:5]</code></pre>
+<pre><code>## [82]</code></pre>
+<pre class="python"><code>list3 = [list1, list2]
+
+max(list1)/min(list2)</code></pre>
+<pre><code>## 10.625</code></pre>
+<pre class="python"><code>list1.sort()
+list1</code></pre>
+<pre><code>## [13, 14, 20, 32, 67, 85]</code></pre>
+<p><strong>Just a beauty isn’t it. While my programming love has switched from R to Python, I still find myself yearning for the simpler times. “Back to the good ’ole days” as they say. Then I found out about reticulation. Reticulate gives me the ability to combine my new love with the one from my past. I do not have to hide my secrets anymore from my new coding partner, instead I can allow them to communicate with each other. It can be scary when your new coding program and your old coding program begin to communicate with one another - but unlike real-life relationships these codes no know feelings. No jealousy, no animosity towards one another. Just programs being programs - carrying out your every wish.</strong></p>
+<pre class="r"><code>library(reticulate)
+
+scoopski &lt;- &quot;hello&quot;</code></pre>
+<pre class="python"><code>scoopski = &quot;friends&quot;
+
+print(r.scoopski, scoopski)</code></pre>
+<pre><code>## hello friends</code></pre>
+<pre class="r"><code>cat(c(scoopski, py$scoopski))</code></pre>
+<pre><code>## hello friends</code></pre>
+<p><img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/Bittrsweet/phpUxqdvf.jpeg" /></p>
+<p><a href="/project/project1/">Link to project 1</a></p>
+<p><a href="https://www.google.com">Link to google</a></p>
